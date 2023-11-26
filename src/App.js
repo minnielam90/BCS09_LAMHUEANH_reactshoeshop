@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import BaiTapShoeShop from "./components/BaiTapShoeShop";
+import ShoeStore from "./components/ShoeStore";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BaiTapShoeShop /> */}
+      <ShoeStore />
     </div>
   );
 }
