@@ -46,6 +46,9 @@ const ProductItem = (props) => {
         </div>
         <h3 style={headingStyle}>{name}</h3>
         <p style={priceStyle}>$ {price}</p>
+        <button className="py-2 px-3 btn btn-success mt-3 text-white">
+          Xem chi tiết
+        </button>
       </div>
     </div>
   );
